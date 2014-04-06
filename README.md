@@ -26,3 +26,11 @@ To overcome it, select the content of "command" property without wrapping quotes
 
     M-x phing-escape-string
     M-x phing-unescape-string
+
+## Snippets ##
+
+There are build in snippets:
+
+- project skeleton `M-p p`
+- build target `M-p t`
+- command to execute `M-p c`
