@@ -2,6 +2,13 @@
 
 Emacs mode for <http://www.phing.info/>, the PHP build tool, similar to GNU Make.
 
+# Installation #
+
+Add to your `.emacs` pr `init.el` such code:
+
+    (require 'phing-mode)
+    (add-to-list 'auto-mode-alist '("build\\.xml\\''" . mail-mode))
+
 #Features#
 
 ##Navigating through properties and targets##
